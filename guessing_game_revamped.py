@@ -9,7 +9,7 @@ import random
 
 def main():
     # Input
-    user_guess_str = (input("Enter a random INTEGER (-10-9): "))
+    user_guess_str = input("Enter a random INTEGER (-10-9): ")
     computer_answer = random.randint(-10, 9)
     # Process and output
 
